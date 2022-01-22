@@ -109,9 +109,9 @@
             this.btnColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnColor.ForeColor = System.Drawing.Color.White;
             this.btnColor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnColor.Location = new System.Drawing.Point(13, 8);
+            this.btnColor.Location = new System.Drawing.Point(22, 9);
             this.btnColor.Name = "btnColor";
-            this.btnColor.Size = new System.Drawing.Size(77, 73);
+            this.btnColor.Size = new System.Drawing.Size(85, 73);
             this.btnColor.TabIndex = 1;
             this.btnColor.Text = "Color";
             this.btnColor.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -129,9 +129,9 @@
             this.btnFill.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFill.ForeColor = System.Drawing.Color.White;
             this.btnFill.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFill.Location = new System.Drawing.Point(96, 8);
+            this.btnFill.Location = new System.Drawing.Point(113, 9);
             this.btnFill.Name = "btnFill";
-            this.btnFill.Size = new System.Drawing.Size(79, 73);
+            this.btnFill.Size = new System.Drawing.Size(83, 73);
             this.btnFill.TabIndex = 2;
             this.btnFill.Text = "Fill";
             this.btnFill.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -149,9 +149,9 @@
             this.btnPencil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPencil.ForeColor = System.Drawing.Color.White;
             this.btnPencil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPencil.Location = new System.Drawing.Point(181, 8);
+            this.btnPencil.Location = new System.Drawing.Point(202, 9);
             this.btnPencil.Name = "btnPencil";
-            this.btnPencil.Size = new System.Drawing.Size(74, 73);
+            this.btnPencil.Size = new System.Drawing.Size(84, 73);
             this.btnPencil.TabIndex = 3;
             this.btnPencil.Text = "Pencil";
             this.btnPencil.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -169,9 +169,9 @@
             this.btnEraser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEraser.ForeColor = System.Drawing.Color.White;
             this.btnEraser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEraser.Location = new System.Drawing.Point(261, 8);
+            this.btnEraser.Location = new System.Drawing.Point(292, 9);
             this.btnEraser.Name = "btnEraser";
-            this.btnEraser.Size = new System.Drawing.Size(75, 75);
+            this.btnEraser.Size = new System.Drawing.Size(83, 73);
             this.btnEraser.TabIndex = 4;
             this.btnEraser.Text = "Eraser";
             this.btnEraser.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -188,10 +188,10 @@
             this.btnEllipse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnEllipse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEllipse.ForeColor = System.Drawing.Color.White;
-            this.btnEllipse.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnEllipse.Location = new System.Drawing.Point(342, 8);
+            this.btnEllipse.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnEllipse.Location = new System.Drawing.Point(381, 9);
             this.btnEllipse.Name = "btnEllipse";
-            this.btnEllipse.Size = new System.Drawing.Size(80, 75);
+            this.btnEllipse.Size = new System.Drawing.Size(91, 73);
             this.btnEllipse.TabIndex = 5;
             this.btnEllipse.Text = "Ellipse";
             this.btnEllipse.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -208,10 +208,10 @@
             this.btnRectangle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnRectangle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRectangle.ForeColor = System.Drawing.Color.White;
-            this.btnRectangle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRectangle.Location = new System.Drawing.Point(428, 8);
+            this.btnRectangle.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.btnRectangle.Location = new System.Drawing.Point(478, 9);
             this.btnRectangle.Name = "btnRectangle";
-            this.btnRectangle.Size = new System.Drawing.Size(83, 75);
+            this.btnRectangle.Size = new System.Drawing.Size(93, 73);
             this.btnRectangle.TabIndex = 6;
             this.btnRectangle.Text = "Rectangle";
             this.btnRectangle.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -229,9 +229,9 @@
             this.btnLine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLine.ForeColor = System.Drawing.Color.White;
             this.btnLine.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLine.Location = new System.Drawing.Point(517, 8);
+            this.btnLine.Location = new System.Drawing.Point(577, 9);
             this.btnLine.Name = "btnLine";
-            this.btnLine.Size = new System.Drawing.Size(78, 73);
+            this.btnLine.Size = new System.Drawing.Size(89, 73);
             this.btnLine.TabIndex = 7;
             this.btnLine.Text = "Line";
             this.btnLine.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -250,7 +250,7 @@
             this.panel3.Controls.Add(this.btnEllipse);
             this.panel3.Location = new System.Drawing.Point(363, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(614, 88);
+            this.panel3.Size = new System.Drawing.Size(690, 94);
             this.panel3.TabIndex = 3;
             // 
             // pbColorPicker
@@ -274,7 +274,7 @@
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClear.Location = new System.Drawing.Point(1010, 64);
+            this.btnClear.Location = new System.Drawing.Point(1084, 68);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(122, 29);
             this.btnClear.TabIndex = 8;
@@ -291,7 +291,7 @@
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(1010, 20);
+            this.btnSave.Location = new System.Drawing.Point(1084, 40);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(122, 33);
             this.btnSave.TabIndex = 9;
